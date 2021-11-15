@@ -4,7 +4,7 @@ theme: gaia
 class: invert
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://wallpaperaccess.com/full/2276817.jpg')
+backgroundImage: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAGkAnHxZMYCHBQj2nDAxDXPEnCTvVSLcQcA&usqp=CAU')
 
 ---
 <!-- _class: lead invert -->

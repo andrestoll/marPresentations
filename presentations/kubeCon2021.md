@@ -35,7 +35,7 @@ Responsible for Certifications & Events
 -->
 
 ---
-
+<!-- _footer: 'Image source: https://www.cncf.io/' -->
 ## CNCF Projects
 
 - Graduated
@@ -48,7 +48,7 @@ Responsible for Certifications & Events
 ![bg right:55% 90%](https://www.cncf.io/wp-content/uploads/2020/12/CNCF-Annual-Report-2020-graphics-11.svg)
 
 ---
-
+<!-- _footer: 'Image source: https://landscape.cncf.io/images/landscape.png' -->
 ## CNCF Landscape
 
 ![bg center:40% 55%](https://landscape.cncf.io/images/landscape.png)
@@ -71,7 +71,7 @@ Technical Oversight Commitee decides about phases
     - Observability, governance, security & management
 
 ---
-
+<!-- _footer: 'Image source: https://falco.org/' -->
 ## Falco
 
 k8s threat detection engine
@@ -92,6 +92,7 @@ k8s threat detection engine
 ![bg right:30% 55%](https://raw.githubusercontent.com/falcosecurity/community/master/logo/primary-logo.png)
 
 ---
+<!-- _footer: 'Image source: https://snyk.io/' -->
 ## Snyk
 
 Automatically detect vulnerabilities and accelerate fixing throughout your development process
@@ -106,6 +107,7 @@ Automatically detect vulnerabilities and accelerate fixing throughout your devel
 
 
 ---
+<!-- _footer: 'Image source: https://crossplane.io/' -->
 ## Crossplane
 
 Enables teams to abstract infrastructure from multiple clouds and expose them on Kubernetes. 
@@ -116,7 +118,6 @@ Enables teams to abstract infrastructure from multiple clouds and expose them on
 ![bg right:40% 55%](https://cncf-branding.netlify.app/img/projects/crossplane/stacked/color/crossplane-stacked-color.png)
 
 ---
-
 ## Useful Links
 
 
@@ -128,4 +129,3 @@ Enables teams to abstract infrastructure from multiple clouds and expose them on
 - Charter:
     - https://github.com/cncf/foundation/blob/master/charter.md
 
-<span style="font-size:80%">text you want</span>
