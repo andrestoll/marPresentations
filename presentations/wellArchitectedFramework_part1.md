@@ -3,6 +3,11 @@ marp: true
 theme: default
 class: invert
 paginate: true
+style: |
+    img[alt~="center"] {
+      display: block;
+      margin: 0 auto;
+    }
 backgroundColor: #000
 foregroundColor: #333
 backgroundImage: url('https://i2.wp.com/files.123freevectors.com/wp-content/original/110414-black-blurred-background-vector.jpg?w=800&q=95')
@@ -15,7 +20,7 @@ backgroundImage: url('https://i2.wp.com/files.123freevectors.com/wp-content/orig
 ---
 ## Five+ pillars
 
-![center:60% 80%](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2020/09/02/Well-Architected-Consulting-1.jpg)
+![center](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2020/09/02/Well-Architected-Consulting-1.jpg)
 
 
 ---
@@ -71,7 +76,7 @@ backgroundImage: url('https://i2.wp.com/files.123freevectors.com/wp-content/orig
 ## Reliability
 ### Design: Example
 
-![center:40% 50%](assets/reliabilityExample.png)
+![center](assets/reliabilityExample.png)
 
 ---
 
@@ -110,7 +115,7 @@ backgroundImage: url('https://i2.wp.com/files.123freevectors.com/wp-content/orig
 ## Cost Optimization: Stages
 
 
-![right:20% 20%](assets/co_stages.png)
+![center](assets/co_stages.png)
 
 ---
 
@@ -150,25 +155,21 @@ backgroundImage: url('https://i2.wp.com/files.123freevectors.com/wp-content/orig
 - Revise budgets
 
 ---
-## Cost Optimization: Monitor Stage
 
+## Cost Optimization: Monitor Stage
 ### Reviews
 - Adopt both proactive and reactive approaches for cost reviews
 - Analyze the cost at all scopes
 - Detect anomalies
 - Use Visualization tools to analyze cost information
 
-
 ---
 ## Cost Optimization: Tradeoffs
-
 ### Cost vs. Reliability
 
 Cost has a direct correlation with reliability.
 
 If the cost of high availability exceeds the cost of downtime, you can save by using Azure platform-managed replication and recover data from the backup storage.
-
-
 
 ---
 
@@ -177,7 +178,5 @@ If the cost of high availability exceeds the cost of downtime, you can save by u
 - [Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/)
 - [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
 - [Reliability Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns)
-
 - [Reliability Pillar (AWS)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html)
-
 - [Netflix chaos monkey](https://github.com/Netflix/chaosmonkey)
