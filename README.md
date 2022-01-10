@@ -7,6 +7,7 @@ Various presentation about tech topics written with the Markdown Presentation Ec
 - [Git Ops with Argo CD](presentations/gitOps_and_argoCd.md)
 - [Well-Architected Framework: Part 1](presentations/wellArchitectedFramework_part1.md)
 - [Well-Architected Framework: Part 2](presentations/wellArchitectedFramework_part2.md)
+- [Well-Architected Framework: Part 3](presentations/wellArchitectedFramework_part3.md)
 
 ## Getting started
 https://marp.app/#get-started
