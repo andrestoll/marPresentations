@@ -21,17 +21,22 @@ _class: lead
 # Terminology
 ## Resource and Services
 
-- ***Service***: Offering of AWS, e.g. the resource type. Their products
-- ***Resource***: Actual entity you create within your account.
+- ***Service***: 
+Offering and products of AWS, e.g. the resource type.
+- ***Resource***: 
+Actual entities you create.
 
 Ex: EC2 -> *i-017dd2b6adfda5de6*
 
 ---
 
 ## Regions and Availability Zones
-- ***Region***: physical location around the world where we cluster data centers.
-Each AWS Region consists of multiple, isolated, and physically separate AZs within a geographic area. 
-- An ***Availability Zone*** (AZ) is one or more discrete data centers with redundant power, networking, and connectivity in an AWS Region. AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking.
+- ***Region***: 
+Physical location to cluster data centers.
+Each AWS Region consists of multiple AZs. 
+- An ***Availability Zone*** (AZ) 
+One or more discrete data centers with redundant power, networking, and connectivity in an AWS Region. 
+AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking.
 
 ---
 <!-- 
@@ -39,11 +44,13 @@ _class: lead
 -->
 ## Amazon Ressource Name (ARN)
 
-***Amazon Resource Names*** (ARNs) uniquely identify AWS resources. We require an ARN when you need to specify a resource unambiguously across all of AWS, such as in IAM policies, Amazon Relational Database Service (Amazon RDS) tags, and API calls.
+- uniquely identifies AWS resources
 
+```
     arn:partition:service:region:account-id:resource-id
     arn:partition:service:region:account-id:resource-type/resource-id
     arn:partition:service:region:account-id:resource-type:resource-id
+```
 
 ---
 
@@ -53,11 +60,13 @@ _class: lead
 
 ## Resource Management
 ### Resource Groups
-Collection of AWS resources **that are all in the same AWS Region**, and that match the criteria specified in the group's query:
-- Tag-based
-- AWS CloudFormation stack-based
+Collection of AWS resources 
+- **that are all in the same AWS Region**, and 
+- match the criteria specified in the group's query:
+  - Tag-based
+  - AWS CloudFormation stack-based
 
-Resource groups can be nested; a resource group can contain existing resource groups in the same region.
+Resource groups can be nested.
 
 ---
 
@@ -67,9 +76,9 @@ Resource groups can be nested; a resource group can contain existing resource gr
 
 ## Resource Management
 ### AWS Config
-- tracks the configuration state of your AWS resources at a point in time
-- shows how your resources are related to one anotherso that you can see how a change in one resource might impact another
-- specify rules to define the optimal baseline configuration for your resources
+- tracks the configuration state 
+- shows how your resources are related to one another
+- specify rules to define the optimal baseline configuration
 
 ---
 
