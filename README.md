@@ -10,6 +10,8 @@ Various presentation about tech topics written with the Markdown Presentation Ec
 - [Well-Architected Framework: Part 3](presentations/wellArchitectedFramework_part3.md)
 - [Cloud Design Patterns: Queue-Based Load Leveling & Publisher/Subscriber Pattern](presentations/designPatterns_looseCoupling&pubSub.md)
 - [AWS Resource Management](presentations/awsResourceManagement.md)
+- [Fallacies of Distributed Systems](presentations/fallaciesOfDistributedSystems.md)
+
 
 ## Getting started
 https://marp.app/#get-started
