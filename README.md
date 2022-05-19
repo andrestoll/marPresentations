@@ -11,6 +11,8 @@ Various presentation about tech topics written with the Markdown Presentation Ec
 - [Cloud Design Patterns: Queue-Based Load Leveling & Publisher/Subscriber Pattern](presentations/designPatterns_looseCoupling&pubSub.md)
 - [AWS Resource Management](presentations/awsResourceManagement.md)
 - [Fallacies of Distributed Systems](presentations/fallaciesOfDistributedSystems.md)
+- [Chaos Engineering](presentations/chaosEngineering.md)
+
 
 
 ## Getting started
