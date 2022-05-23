@@ -12,6 +12,7 @@ Various presentation about tech topics written with the Markdown Presentation Ec
 - [AWS Resource Management](presentations/awsResourceManagement.md)
 - [Fallacies of Distributed Systems](presentations/fallaciesOfDistributedSystems.md)
 - [Chaos Engineering](presentations/chaosEngineering.md)
+- [Future Trends & Topics (May 2022)](presentations/futureTrendsTopics.md)
 
 
 
